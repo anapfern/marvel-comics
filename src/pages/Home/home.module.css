@@ -1,0 +1,21 @@
+.containerComics {
+  display: grid;
+  grid-template-columns: repeat(6, 10rem);
+  justify-content: center;
+  grid-gap: 1rem;
+  margin: 2rem;
+}
+
+@media (min-width: 800px) and (max-width: 1300px) {
+  .containerComics {
+    grid-template-columns: repeat(4, 10rem);
+
+  }
+}
+
+@media (min-width: 1920px) {
+  .containerComics {
+    grid-template-columns: repeat(8, 10rem);
+
+  }
+}

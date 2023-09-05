@@ -1,0 +1,44 @@
+.containerCheckout {
+  background: #b8b4b424;
+  margin: 2rem auto;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 70vw;
+  backdrop-filter: blur(2.5px);
+  color: white;
+  height: 80vh;
+  overflow: auto;
+}
+
+.containerCheckout img {
+  height: 10vh;
+  width: 3vw;
+}
+
+.buttonsCheckout {
+  display: flex;
+  justify-content: end;
+  gap: 0.5rem;
+}
+
+.buttonsCheckout button {
+  border: 1px solid #F0141E;
+  border-radius: 5px;
+  color: #F0141E;
+  padding: 0.25rem;
+  cursor: pointer;
+}
+
+.buttonsCheckout button:hover {
+  color: white;
+  background-color: #F0141E;
+  transition: color 0.5s ease;
+}
+
+.removeCheckout {
+  cursor: pointer;
+}
+
+.removeCheckout:hover {
+  color: #F0141E;
+}

@@ -1,0 +1,40 @@
+.containerDetails {
+  background: #b8b4b424;
+  margin: 2rem auto;
+  border-radius: 5px;
+  padding: 1rem;
+  display: flex;
+  width: 70vw;
+  backdrop-filter: blur(2.5px);
+  color: white;
+  gap: 1rem;
+}
+
+.containerDetails img {
+  height: 70vh;
+  width: 25vw;
+}
+
+.descriptionArea {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.descriptionArea button {
+  border: 1px solid #F0141E;
+  border-radius: 5px;
+  color: #F0141E;
+  padding: 0.25rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+}
+
+.descriptionArea button:hover {
+  color: white;
+  background-color: #F0141E;
+  transition: color 0.5s ease;
+}
