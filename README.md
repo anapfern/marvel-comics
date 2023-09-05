@@ -28,7 +28,6 @@ ou yarn dev
 
 ## 🛠 Tecnologias
 
-- [Vite](https://vitejs.dev/) - Ferramenta de construção
-- [React](https://reactjs.org/) - Biblioteca de UI (ou qualquer outra biblioteca/framework que você esteja usando)
-
+- [Vite](https://vitejs.dev/) 
+- [React](https://reactjs.org/) 
 
